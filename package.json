@@ -21,7 +21,7 @@
     "lib",
     "assets/*.css"
   ],
-  "licenses": "MIT",
+  "license": "MIT",
   "main": "./lib/index",
   "config": {
     "port": 8000
@@ -39,15 +39,15 @@
     "coverage": "rc-tools run coverage"
   },
   "devDependencies": {
-    "eslint": "^2.3.0",
-    "eslint-config-airbnb": "^6.1.0",
-    "eslint-plugin-react": "^4.2.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-react-app": "^1.0.4",
+    "eslint-plugin-react": "^7.0.1",
     "expect.js": "0.3.x",
     "pre-commit": "1.x",
-    "rc-tools": "5.x",
-    "react": "0.14.x",
-    "react-addons-test-utils": "0.14.x",
-    "react-dom": "0.14.x"
+    "rc-tools": "7.x",
+    "react": "^16.x || ^15.x",
+    "react-dom": "^16.x || ^15.x"
   },
   "pre-commit": [
     "lint"
